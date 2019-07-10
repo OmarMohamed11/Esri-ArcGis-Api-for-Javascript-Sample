@@ -1,0 +1,82 @@
+#map{
+    height: 615px;
+    /* width: 1000px; */
+    background-color: rgb(255, 255, 255);
+
+}
+body{
+    background-color: rgb(235, 235, 235) !important;
+    padding: 5px;
+}
+
+.sideright{
+    height: 615px;
+    background-color: rgb(216, 216, 216);
+    box-shadow: 1px 0px 2px gray;
+    padding-left: 0px !important;
+    
+}
+.sideleft{
+    height: 615px;
+    background-color:rgb(216, 216, 216);
+    padding-left: 0px !important;
+    box-shadow: -1px 0px 2px gray;
+
+
+}
+.dropdown{
+    padding-top: 20px;
+    padding-left: 10px;
+    height: 196px;
+    margin: 8px;
+    border-radius: 8px;    
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+}
+.list{
+
+    width:96%;
+    height: 20%;
+    border-radius: 15px;
+    background-color: rgb(238, 238, 238);
+    transition:  all ease-in-out 300ms;
+}
+.list:hover{
+    background-color: rgb(219, 219, 219);
+}
+
+option{
+    background-color: rgb(226, 226, 226);
+    transition:  all ease-in-out 300ms;
+}
+
+.chart{
+    height: 29.6%;
+    background-color: rgb(243, 243, 243);
+    margin: 8px;
+    width: 100%;
+    border-radius: 7px;
+    display: none;
+}
+
+.active{
+    display: block;
+}
+#menu{
+    margin: auto;
+    padding-left: 50px;
+}
+#btns{
+    background-color: rgb(230, 230, 230);
+    width: min-content;
+    height: min-content;
+    border-radius: 15px;
+}
+.btn-group{
+    padding-left: 27px;
+}
+select{
+    height: 196px;
+    overflow: scroll;
+}
+
